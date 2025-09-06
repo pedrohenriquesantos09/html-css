@@ -24,7 +24,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 header > h1 {
@@ -53,7 +53,11 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -70,6 +74,14 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.671);
+}
+
+section#img01 {
+    background-image: ../;
+}
+
+section#img02 {
+
 }
     
 
